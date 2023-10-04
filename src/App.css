@@ -1,0 +1,62 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+input,
+label {
+  display: block;
+}
+
+.generalForm,
+.educationForm,
+.experienceForm {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  text-align: center;
+}
+
+.applicationRender {
+  background-color: white;
+  width: 50vw;
+  height: auto;
+  border: black solid 2px;
+  line-height: 12px;
+  color: black;
+}
+
+#root {
+  display: flex;
+  gap: 30px;
+}
+
+.respBox {
+  height: 100px;
+  text-align: start;
+  text-wrap: wrap;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+.mainTitle {
+  color: silver;
+  text-decoration: overline black;
+}
+button {
+  margin: 5px;
+}
